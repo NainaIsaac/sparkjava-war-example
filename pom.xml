@@ -21,7 +21,18 @@
 			<version>1.7.25</version>
 		</dependency>
 	</dependencies>
-
+       <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>artifactory-dal10-01-node-05.swg-devops.com-releases</name>
+        <url>https://na.artifactory.swg-devops.com:443/artifactory/dbg-dbdm-maven-local</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>artifactory-dal10-01-node-05.swg-devops.com-snapshots</name>
+        <url>https://na.artifactory.swg-devops.com:443/artifactory/dbg-dbdm-maven-local</url>
+    </snapshotRepository>
+</distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
